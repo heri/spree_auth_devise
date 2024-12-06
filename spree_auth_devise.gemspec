@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
 
   s.author      = 'Heri'
   s.email       = 'heri@studiozenkai.com'
-  s.homepage    = 'http://spreecommerce.com'
+  s.homepage    = 'http://studiozenkai.com'
   s.license     = 'BSD-3-Clause'
 
   s.files        = `git ls-files`.split("\n")
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'devise', '~> 4.3.0'
+  s.add_dependency 'devise', '~> 4.7.1'
   s.add_dependency 'devise-encryptable', '0.2.0'
 
   spree_version = '>= 3.1.0', '< 4.0'
